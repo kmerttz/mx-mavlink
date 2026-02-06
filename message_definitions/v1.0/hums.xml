@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<mavlink>
+  <dialect>4</dialect>
+  <messages>
+    <message id="12921" name="MOTOR_STATUS">
+      <description>Motor status information.</description>
+      <field type="uint8_t" name="motor_id">Motor ID</field>
+      <field type="float" name="rpm">Motor RPM</field>
+      <field type="float" name="temperature">Temperature</field>
+      <field type="float" name="voltage">Voltage</field>
+      <field type="float" name="current">Current</field>
+      <field type="float[3]" name="vibration">Vibration</field>
+    </message>
+  </messages>
+</mavlink>
