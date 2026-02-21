@@ -11,5 +11,11 @@
       <field type="float" name="current">Current</field>
       <field type="float[3]" name="vibration">Vibration</field>
     </message>
+    <message id="12922" name="SENS_STATUS">
+      <description>Sensation status information.</description>
+      <field type="float" name="wing_strain">Wing Strain</field>
+      <field type="float" name="aileron_angle">Aileron Angle</field>
+      <field type="uint8_t" name="gripper_state">Gripper State</field>
+    </message>
   </messages>
 </mavlink>
